@@ -1,0 +1,120 @@
+.bandit {
+    display: flex;
+    align-items: center;
+    border: solid black 1px;
+    font-size: 1em;
+    justify-content: center ;
+    padding: 10px;
+    height: 100px;
+    font-family: 'Merriweather', serif;
+}
+.logo {
+    width: 150px; 
+    height: 150px;
+}
+
+h1 {
+    color:  #B09869;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+nav {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    font-size: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+body {
+    background-image: url("background.png");
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+}
+
+.bloc {
+    border: solid black 2px;
+    border-radius: 3px;
+    padding: 20px;
+    float: right;
+    width: 500px;
+    height: auto;
+    font-size: 1.1em;
+}
+
+button {
+    background-color:#B09869CC;
+    border-radius: 3px;
+    padding: 11px;
+    font-size: 1em;
+    float: right;
+    cursor: pointer;
+    width: 100px;
+}
+
+label {
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 10px;
+    margin: auto;
+    width: 350px; 
+    height: 30px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-items: right;
+}
+
+select {
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    margin: auto;
+    width: 350px; 
+    height: 30px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-items: right;
+    font-size: 1em;
+}
+
+textarea {
+    border-radius: 10px;
+    margin: auto;
+    width: 504px;
+    height: 41px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-items: right;
+    
+}
+
+.importation {
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.button2{
+    border-radius: 3px;
+    cursor: pointer;
+}
