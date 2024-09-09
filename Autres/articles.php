@@ -28,44 +28,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     }
 
 }
-
-
-/*try {
-    mysql_query("INSERT INTO redirects SET ua_string = '$ua_string'")
-}
-
-catch (Exception $e) {
-    // not a MySQL exception
-    $e->getMessage();*/
-
-
-
-/*
-
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $title = $_POST['title'];
-    $first_text = $_POST['first_text'];
-    
-
-    $image = $_FILES['image'];
-    $imagePath = '../uploads/' . basename($image['name']);
-    
-    if (move_uploaded_file($image['tmp_name'], $imagePath)) {
-        // Insérer les informations de l'article dans la base de données
-        $sql = "INSERT INTO articles (title, first_text, image, posting_date) VALUES (:title, :first_text, :image, NOW())";
-        $stmt = $pdo->prepare($sql);
-        $stmt->execute([
-            ':title' => $title,
-            ':first_text' => $first_text,
-            ':image' => $imagePath,
-        ]);
-        
-        echo "L'article a été ajouté avec succès !";
-    } else {
-        echo "Échec du téléchargement de l'image.";
-    }
-}
-*/
 ?>
  
 <!DOCTYPE html>
